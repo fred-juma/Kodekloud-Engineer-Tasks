@@ -1,6 +1,6 @@
 # System Administration Tasks in KodeKloud Engineer Platform
 
- [KodeKloud Engineer] (https://www.kodekloud-engineer.com/) is a free platform designed to impact work experience for IT professionals.
+ [KodeKloud Engineer](https://www.kodekloud-engineer.com/) is a free platform designed to impact work experience for IT professionals.
 
  In this repository, I document the daily tasks that I solve withing the platform. 
 
