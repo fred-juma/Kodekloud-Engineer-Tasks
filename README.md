@@ -8,4 +8,6 @@
 
 ## Sections
 
+1. [Linux Bash Scripts]( https://github.com/fred-juma/Kodekloud-System-Administrator/tree/main/KodeKloud%20System%20Administrator/01%20-%20Linux%20Bash%20Scripts)
+
 
