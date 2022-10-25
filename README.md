@@ -2,9 +2,9 @@
 
  [KodeKloud Engineer](https://www.kodekloud-engineer.com/) is a free platform designed to impact work experience for IT professionals.
 
- In this repository, I document the daily tasks that I solve withing the platform. 
+ In this repository, I document the daily tasks that I solve within the platform. 
 
- I got the idea while on my 35th task, I have no way of creating those 35 tasks, so I'll pick up from task 36 onwards.
+ I got the idea while on my 35th task, and I have no way of recreating those past 35 tasks, therefore in this repository I'll pick up from task 36 onwards.
 
 ## Sections
 
