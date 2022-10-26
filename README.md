@@ -12,3 +12,5 @@
 
 
 2. [Configure Local Yum repos](https://github.com/fred-juma/Kodekloud-System-Administrator/tree/main/KodeKloud%20System%20Administrator/02.%20Configure%20Local%20Yum%20repos)
+
+3. [Linux Log rotate](https://github.com/fred-juma/Kodekloud-System-Administrator/tree/main/KodeKloud%20System%20Administrator/03.%20Linux%20LogRotate)
