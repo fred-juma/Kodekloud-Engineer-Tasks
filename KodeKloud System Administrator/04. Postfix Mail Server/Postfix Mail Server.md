@@ -80,7 +80,7 @@ Complete!
 stmail01.stratos.xfusioncorp.com
 ```
 
-### Open with vi editor the postfix configuration file and apply the necessary configuration parameters. Refer to the configuration file here for the applied parameters.
+### Open with vi editor the postfix configuration file and apply the necessary configuration parameters. Refer to the configuration file [here](https://github.com/fred-juma/Kodekloud-System-Administrator/blob/main/KodeKloud%20System%20Administrator/04.%20Postfix%20Mail%20Server/main.cf) for the applied parameters.
 
 ```bash
 [groot@stmail01 ~]$ sudo vi /etc/postfix/main.cf
@@ -238,7 +238,7 @@ Loading mirror speeds from cached hostfile
 Resolving Dependencies
 ```
 
-### Open the dovecot configuration file with vi editor and apply the appropriate settings to the config file. You can find the configuration file here.
+### Open the dovecot configuration file with vi editor and apply the appropriate settings to the config file. You can find the configuration file [here](https://github.com/fred-juma/Kodekloud-System-Administrator/blob/main/KodeKloud%20System%20Administrator/04.%20Postfix%20Mail%20Server/dovecot.conf).
 
 ```bash
 [root@stmail01 groot]# vi /etc/dovecot/dovecot.conf
