@@ -15,4 +15,4 @@
 
 3. [Linux Log rotate](https://github.com/fred-juma/Kodekloud-System-Administrator/tree/main/KodeKloud%20System%20Administrator/03.%20Linux%20LogRotate)
 
-4. [Linux Postfix Mail Server](https://github.com/fred-juma/Kodekloud-System-Administrator/tree/main/KodeKloud%20System%20Administrator/04.%20Postfix%20Mail%20Server)
+4. [Linux Postfix Mail Server](https://github.com/fred-juma/Kodekloud-System-Administrator/tree/main/KodeKloud%20System%20Administrator/04.%20Linux%20Postfix%20Mail%20Server)
