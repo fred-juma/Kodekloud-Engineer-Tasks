@@ -129,12 +129,12 @@ epel/x86_64/metalink                                             |  21 kB  00:00
 base 
 ```
 
-### Uncomment the command in the 55-authnz_pam.conf file. See the configuration file [here]() 
+### Uncomment the command in the 55-authnz_pam.conf file. See the configuration file [here](https://github.com/fred-juma/Kodekloud-System-Administrator/blob/main/KodeKloud%20System%20Administrator/05%20-%20PAM%20Authentication%20for%20apache/55-authnz_pam.conf) 
 ```bash
 vi /etc/httpd/conf.modules.d/55-authnz_pam.conf
 ```
 
-### Configure the authnz_pam.conf PAM authorization module with the appropriate commands. The configuration file [here]() has the commands.
+### Configure the authnz_pam.conf PAM authorization module with the appropriate commands. The configuration file [here](https://github.com/fred-juma/Kodekloud-System-Administrator/blob/main/KodeKloud%20System%20Administrator/05%20-%20PAM%20Authentication%20for%20apache/authnz_pam.conf) has the commands.
 
 ```bash
 vi /etc/httpd/conf.d/authnz_pam.conf
