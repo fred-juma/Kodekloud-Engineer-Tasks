@@ -22,3 +22,5 @@
 6. [Linux Process Troubleshooting](https://github.com/fred-juma/Kodekloud-System-Administrator/tree/main/KodeKloud%20System%20Administrator/06.%20Linux%20Process%20Troubleshooting)
 
 7. [Install and Configure iptables](https://github.com/fred-juma/Kodekloud-System-Administrator/tree/main/KodeKloud%20System%20Administrator/07%20-%20Install%20and%20configure%20iptables)
+
+8. [Install and Configure apache tomcat](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/KodeKloud%20System%20Administrator/08.%20Install%20and%20configure%20apache%20tomcat)

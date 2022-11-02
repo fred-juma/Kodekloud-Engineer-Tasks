@@ -56,7 +56,7 @@ Resolving Dependencies
 --> Running transaction check
 ---> Package tomcat.noarch 0:7.0.76-16.el7_9 will be installed
 ```
-#### Using vi text editor, edit the *tomcat* configuration file located at */usr/share/tomcat/conf/tomcat.conf*, and insert at the bottom of the file the line below. Find the full configuration file [here]()
+#### Using vi text editor, edit the *tomcat* configuration file located at */usr/share/tomcat/conf/tomcat.conf*, and insert at the bottom of the file the line below. Find the full configuration file [here](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/blob/main/KodeKloud%20System%20Administrator/08.%20Install%20and%20configure%20apache%20tomcat/tomcat.conf)
 
 ```bash
 [root@stapp01 tony]# vi /usr/share/tomcat/conf/tomcat.conf
@@ -69,7 +69,7 @@ Resolving Dependencies
 JAVA_OPTS="-Djava.security.egd=file:/dev/./urandom -Djava.awt.headless=true -Xmx1026m -XX:MaxPermSize=256m -XX:+UseConcMarkSweepGC"
 ```
 
-#### Add credentials for the web GUI admin and manager roles. This is done by appending the 3 lines below inside the *tomcat* user configuration file. You can find the full configuration file [here]()
+#### Add credentials for the web GUI admin and manager roles. This is done by appending the 3 lines below inside the *tomcat* user configuration file. You can find the full configuration file [here](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/blob/main/KodeKloud%20System%20Administrator/08.%20Install%20and%20configure%20apache%20tomcat/tomcat-users.xml)
 
 ```bash
 [root@stapp01 tony]# vi /usr/share/tomcat/conf/tomcat-users.xml
@@ -88,7 +88,7 @@ JAVA_OPTS="-Djava.security.egd=file:/dev/./urandom -Djava.awt.headless=true -Xmx
 .
 ```
 
-#### Configure the tcp port that the *tomcat* webserver is listening on from port *8080* to port *8088* by editing the *tomcat* server configuration file */usr/share/tomcat/conf/server.xml*. Find the full configuration file [here]()
+#### Configure the tcp port that the *tomcat* webserver is listening on from port *8080* to port *8088* by editing the *tomcat* server configuration file */usr/share/tomcat/conf/server.xml*. Find the full configuration file [here](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/blob/main/KodeKloud%20System%20Administrator/08.%20Install%20and%20configure%20apache%20tomcat/tomcat-servers.xml)
 
 ```bash
 [root@stapp01 tony]# vi /usr/share/tomcat/conf/server.xml 
