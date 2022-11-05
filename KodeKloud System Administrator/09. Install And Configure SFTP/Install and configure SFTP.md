@@ -113,7 +113,7 @@ passwd: all authentication tokens updated successfully.
 [root@stapp03 banner]# 
 ```
 
-#### Using *vi* text editor, make the necessary adjustments in the configuration file. The final configurations file is [here]().
+#### Using *vi* text editor, make the necessary adjustments in the configuration, path */etc/ssh/sshd_config*. The final configurations file is [here](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/blob/main/KodeKloud%20System%20Administrator/09.%20Install%20And%20Configure%20SFTP/sshd_config).
 
 ```bash
 [root@stapp03 banner]# vi /etc/ssh/sshd_config 

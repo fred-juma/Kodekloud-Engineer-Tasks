@@ -24,3 +24,7 @@
 7. [Install and Configure iptables](https://github.com/fred-juma/Kodekloud-System-Administrator/tree/main/KodeKloud%20System%20Administrator/07%20-%20Install%20and%20configure%20iptables)
 
 8. [Install and Configure apache tomcat](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/KodeKloud%20System%20Administrator/08.%20Install%20and%20configure%20apache%20tomcat)
+
+9. [Install And Configure SFTP](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/KodeKloud%20System%20Administrator/09.%20Install%20And%20Configure%20SFTP)
+
+10. [Install and Configure PostgreSQL](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/KodeKloud%20System%20Administrator/10.%20Install%20and%20Configure%20PostgreSQL)
