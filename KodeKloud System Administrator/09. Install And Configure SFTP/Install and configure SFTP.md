@@ -113,10 +113,25 @@ passwd: all authentication tokens updated successfully.
 [root@stapp03 banner]# 
 ```
 
-#### Using *vi* text editor, make the necessary adjustments in the configuration, path */etc/ssh/sshd_config*. The final configurations file is [here](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/blob/main/KodeKloud%20System%20Administrator/09.%20Install%20And%20Configure%20SFTP/sshd_config).
+#### Using *vi* text editor, make the necessary adjustments in the configuration, path */etc/ssh/sshd_config*. the configurations restrict the SSH terminal access for the newly created user *rose* but allow the FTP file transfer. The final configurations file is [here](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/blob/main/KodeKloud%20System%20Administrator/09.%20Install%20And%20Configure%20SFTP/sshd_config).
 
 ```bash
 [root@stapp03 banner]# vi /etc/ssh/sshd_config 
+
+#
+#
+#
+Match User rose
+ForceCommand internal-sftp
+PasswordAuthentication yes
+ChrootDirectory /var/www
+PermitTunnel no
+AllowAgentForwarding no
+AllowTcpForwarding no
+X11Forwarding no
+#
+#
+#
 [root@stapp03 banner]# 
 ```
 
@@ -154,6 +169,16 @@ Nov 02 18:56:50 stapp03.stratos.xfusioncorp.com systemd[1]: Started OpenSSH serv
 Hint: Some lines were ellipsized, use -l to show in full.
 [root@stapp03 banner]# 
 ```
+
+#### Verify the Configuration by gaining SFTP access and trying to list file contents
+```bash
+$ sftp rose@localhost
+Output:
+rose@localhost's password:
+Connected to localhost.
+sftp>
+```
+
 
 ***The End***
 
