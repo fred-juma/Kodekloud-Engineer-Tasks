@@ -8,7 +8,7 @@
 
 ### Sections
 
-1. [Linux Bash Scripts]( https://github.com/fred-juma/Kodekloud-System-Administrator/tree/main/KodeKloud%20System%20Administrator/01%20-%20Linux%20Bash%20Scripts)
+1. [Linux Bash Scripts]( https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/KodeKloud%20System%20Administrator/01.%20Linux%20Bash%20Scripts)
 
 
 2. [Configure Local Yum repos](https://github.com/fred-juma/Kodekloud-System-Administrator/tree/main/KodeKloud%20System%20Administrator/02.%20Configure%20Local%20Yum%20repos)
@@ -17,7 +17,7 @@
 
 4. [Linux Postfix Mail Server](https://github.com/fred-juma/Kodekloud-System-Administrator/tree/main/KodeKloud%20System%20Administrator/04.%20Linux%20Postfix%20Mail%20Server)
 
-5. [PAM Authentication for apache](https://github.com/fred-juma/Kodekloud-System-Administrator/tree/main/KodeKloud%20System%20Administrator/05%20-%20PAM%20Authentication%20for%20apache)
+5. [PAM Authentication for apache](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/KodeKloud%20System%20Administrator/05.%20PAM%20Authentication%20for%20apache)
 
 6. [Linux Process Troubleshooting](https://github.com/fred-juma/Kodekloud-System-Administrator/tree/main/KodeKloud%20System%20Administrator/06.%20Linux%20Process%20Troubleshooting)
 
