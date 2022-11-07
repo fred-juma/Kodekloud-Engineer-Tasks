@@ -28,3 +28,5 @@
 9. [Install And Configure SFTP](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/KodeKloud%20System%20Administrator/09.%20Install%20And%20Configure%20SFTP)
 
 10. [Install and Configure PostgreSQL](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/KodeKloud%20System%20Administrator/10.%20Install%20and%20Configure%20PostgreSQL)
+
+11. [Install a package](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/KodeKloud%20System%20Administrator/11.%20Install%20a%20package)
