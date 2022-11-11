@@ -30,3 +30,5 @@
 10. [Install and Configure PostgreSQL](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/KodeKloud%20System%20Administrator/10.%20Install%20and%20Configure%20PostgreSQL)
 
 11. [Install a package](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/KodeKloud%20System%20Administrator/11.%20Install%20a%20package)
+
+12. [Linux string substitution with sed](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/KodeKloud%20System%20Administrator/12.%20Linux%20string%20substitute%20sed)
