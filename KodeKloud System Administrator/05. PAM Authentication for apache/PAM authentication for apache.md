@@ -69,6 +69,16 @@ DocumentRoot "/var/www/html"
 
 ```bash
 [root@stapp03 banner]# systemctl status httpd
+● httpd.service - The Apache HTTP Server
+   Loaded: loaded (/usr/lib/systemd/system/httpd.service; disabled; vendor preset: disabled)
+   Active: inactive (dead)
+     Docs: man:httpd(8)
+           man:apachectl(8)
+[root@stapp03 banner]# systemctl status httpd
+
+[root@stapp03 banner]# systemctl start  httpd
+[root@stapp03 banner]# 
+
 ```
 
 ### Browse to the *http://localhost:8080* to confirm the webpage is being served by httpd. All seems to be working fine
