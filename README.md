@@ -36,3 +36,5 @@
 13. [Linux Banner](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/KodeKloud%20System%20Administrator/13.%20Linux%20Banner)
 
 14. [Deployment in Kubernetes Cluster ](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/01.%20Create%20Deployments%20in%20Kubernetes%20Cluster)
+
+15. [Puppet setup NTP Server](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/blob/main/kodekloud%20DevOps%20Engineer/02.%20Puppet%20Setup%20NTP%20Server/puppet%20setup%20ntp%20server.md)
