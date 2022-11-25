@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: httpd-deploy
+  name: httpd-deploy
+  namespace: nautilus
+spec:
+  replicas: 4
+  selector:
+    matchLabels:
+      app: httpd-deploy
+  strategy: 
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 2
+  template:
+    metadata:
+      labels:
+        app: httpd-deploy
+    spec:
+      containers:
+      - image: httpd:2.4.27
+        name: httpd
