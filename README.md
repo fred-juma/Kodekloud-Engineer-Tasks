@@ -38,3 +38,5 @@
 14. [Deployment in Kubernetes Cluster ](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/01.%20Create%20Deployments%20in%20Kubernetes%20Cluster)
 
 15. [Puppet setup NTP Server](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/blob/main/kodekloud%20DevOps%20Engineer/02.%20Puppet%20Setup%20NTP%20Server/puppet%20setup%20ntp%20server.md)
+
+16. [03. Kubernetes Deployment with Rolling Updates](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/03.%20Kubernetes%20Deployment%20and%20Rolling%20Updates)
