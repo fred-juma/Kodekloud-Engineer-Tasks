@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: grafana-deployment-nautilus
+  name: grafana-deployment-nautilus
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: grafana-deployment-nautilus
+  template:
+    metadata:
+      labels:
+        app: grafana-deployment-nautilus
+    spec:
+      containers:
+      - image: grafana/grafana
+        name: grafana
+        ports:
+        - containerPort: 3000
