@@ -42,3 +42,5 @@
 16. [Kubernetes Deployment with Rolling Updates](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/03.%20Kubernetes%20Deployment%20and%20Rolling%20Updates)
 
 17. [Puppet deploy file resource](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/04.%20Puppet%20deploy%20file%20resource)
+
+18. [Deploy Grafana on Kubernetes Cluster](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/05.%20Deploy%20Grafana%20on%20Kubernetes%20Cluster)
