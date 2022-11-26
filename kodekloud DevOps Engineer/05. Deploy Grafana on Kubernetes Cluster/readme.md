@@ -77,4 +77,4 @@ thor@jump_host ~$
 
 Grafana Home Page              |  
 :-------------------------:|
-![Grafana Home Page](images/grafana_home.JPEG)
+![Grafana Home Page](images/grafana_home.JPG)
