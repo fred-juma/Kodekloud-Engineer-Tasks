@@ -46,3 +46,5 @@
 18. [Deploy Grafana on Kubernetes Cluster](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/05.%20Deploy%20Grafana%20on%20Kubernetes%20Cluster)
 
 19. [Docker copy operations](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/06.%20Docker%20copy%20operations)
+
+20. [Setup Puppet Certs](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/07.%20Setup%20Puppet%20Certs)
