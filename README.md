@@ -8,7 +8,7 @@
 
  Nautilus Deployment Architecture              |  
 :-------------------------:|
-![Nautilus Deployment Architecture](images/Nautilus_deployment_architecture.JPG)
+![Nautilus Deployment Architecture](images/Nautilus_deployment_architecture.jpeg)
 
 ### Sections
 
