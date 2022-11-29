@@ -6,6 +6,10 @@
 
  I got the idea while on my 35th task, and I have no way of recreating those past 35 tasks, therefore in this repository I'll pick up from task 36 onwards.
 
+ Nautilus Deployment Architecture              |  
+:-------------------------:|
+![Nautilus Deployment Architecture](images/Nautilus_deployment_architecture.JPG)
+
 ### Sections
 
 1. [Linux Bash Scripts]( https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/KodeKloud%20System%20Administrator/01.%20Linux%20Bash%20Scripts)
