@@ -52,3 +52,5 @@
 19. [Docker copy operations](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/06.%20Docker%20copy%20operations)
 
 20. [Setup Puppet Certs](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/07.%20Setup%20Puppet%20Certs)
+
+21. [Docker ports mapping](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/08.%20Docker%20Ports%20Mapping)
