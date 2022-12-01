@@ -118,7 +118,7 @@ View the jenkins web page on the browser
 
 Kubernetes Jenkins Deployment              |  
 :-------------------------:|
-![Kubernetes Jenkins Deployment](images/k8s-jenkins-deployment.JPG)
+![Kubernetes Jenkins Deployment](../images/k8s-jenkins-deployment.JPG)
 
 
 ***The End***
