@@ -56,3 +56,5 @@
 21. [Docker ports mapping](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/08.%20Docker%20Ports%20Mapping)
 
 22. [Deploy Jenkins on Kubernetes](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/09.%20Deploy%20Jenkins%20on%20Kubernetes)
+
+23. [Ansible Inventory Update](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/10.%20Ansible%20Inventory%20Update)
