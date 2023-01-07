@@ -3,25 +3,25 @@
 The Nautilus DevOps team had a meeting with development team last week to discuss about some new requirements for an application deployment. Team is working on to setup a mariadb database server on Nautilus DB Server in Stratos Datacenter. They want to setup the same using Puppet. Below you can find more details about the requirements:
 
 
-
 Create a puppet programming file official.pp under /etc/puppetlabs/code/environments/production/manifests directory on puppet master node i.e on Jump Server. Define a class mysql_database in puppet programming code and perform below mentioned tasks:
 
 Install package mariadb-server (whichever version is available by default in yum repo) on puppet agent node i.e on DB Server also start its service.
 
 Create a database kodekloud_db4 , a database userkodekloud_pop and set passwordGyQkFRVNr3 for this new user also remember host should be localhost. Finally grant some usual permissions like select, update (or full) ect to this newly created user on newly created database.
 
-Notes: :- Please make sure to run the puppet agent test using sudo on agent nodes, otherwise you can face certificate issues. In that case you will have to clean the certificates first and then you will be able to run the puppet agent test.
+Notes: 
+- Please make sure to run the puppet agent test using sudo on agent nodes, otherwise you can face certificate issues. In that case you will have to clean the certificates first and then you will be able to run the puppet agent test.
 
-:- Before clicking on the Check button please make sure to verify puppet server and puppet agent services are up and running on the respective servers, also please make sure to run puppet agent test to apply/test the changes manually first.
+- Before clicking on the Check button please make sure to verify puppet server and puppet agent services are up and running on the respective servers, also please make sure to run puppet agent test to apply/test the changes manually first.
 
-:- Please note that once lab is loaded, the puppet server service should start automatically on puppet master server, however it can take upto 2-3 minutes to start.
+- Please note that once lab is loaded, the puppet server service should start automatically on puppet master server, however it can take upto 2-3 minutes to start.
 
 
 #### Solution
 
-Check the status of puppet package on the puppet master
+Check the status of puppet service on the puppet master
 
-
+```bash
 thor@jump_host ~$ sudo systemctl status puppet
 [sudo] password for thor: 
 Sorry, try again.
@@ -30,10 +30,14 @@ Sorry, try again.
    Loaded: loaded (/usr/lib/systemd/system/puppet.service; disabled; vendor preset: disabled)
    Active: inactive (dead)
 thor@jump_host ~$ 
+```
 
 Since the service is not running, start it, then check to ensure it is up and runnning
 
+```bash
 thor@jump_host ~$ sudo systemctl start puppet
+
+
 thor@jump_host ~$ sudo systemctl status puppet
 ● puppet.service - Puppet agent
    Loaded: loaded (/usr/lib/systemd/system/puppet.service; disabled; vendor preset: disabled)
@@ -46,37 +50,25 @@ thor@jump_host ~$ sudo systemctl status puppet
 
 Jan 07 11:11:28 jump_host.stratos.xfusioncorp.com puppet-agent[13885]: Starting Puppet client version 6.24.0
 thor@jump_host ~$ 
+```
+
+Create the manifest file and add the [contents](official.pp) as described
+
+```bash
+thor@jump_host$ vi /etc/puppetlabs/code/environments/production/manifests/official.pp
+```
 
 
+Validate the puppet configuration file
+
+```bash     
 thor@jump_host /etc/puppetlabs/code/environments/production/manifests$ puppet parser validate official.pp
 thor@jump_host /etc/puppetlabs/code/environments/production/manifests$ 
-
-class mysql_database {
-  package { 'mariadb-server':
-    ensure => installed,
-  }
-
-  service { 'mariadb':
-    ensure => running,
-    enable => true,
-  }
-
-  # Create the database
-  mysql::db { 'kodekloud_db4':
-    user     => 'kodekloud_pop',
-    password => 'GyQkFRVNr3',
-    host     => 'localhost',
-    grant    => ['ALL'],
-  }
-}
-
-node 'stdb01.stratos.xfusioncorp.com' {
-  include mysql_database
-}
-     
+```
 
 Check whether installation is working properly on the puppet master.
 
+```bash
 thor@jump_host ~$ sudo /opt/puppetlabs/bin/puppet agent --test
 Info: Using configured environment 'production'
 Info: Retrieving pluginfacts
@@ -87,10 +79,11 @@ Info: Caching catalog for jump_host.stratos.xfusioncorp.com
 Info: Applying configuration version '1673089923'
 Notice: Applied catalog in 0.05 seconds
 thor@jump_host ~$ 
-
+```
 
 Check puppet status on the slave node
 
+```bash
 [peter@stdb01 ~]$ sudo systemctl status puppet
 ● puppet.service - Puppet agent
    Loaded: loaded (/usr/lib/systemd/system/puppet.service; disabled; vendor preset: disabled)
@@ -111,14 +104,18 @@ Jan 07 11:06:57 stdb01.stratos.xfusioncorp.com puppet-agent[528]: (/File[/opt/pu
 Jan 07 11:07:01 stdb01.stratos.xfusioncorp.com puppet-agent[528]: Applied catalog in 0.10 seconds
 Hint: Some lines were ellipsized, use -l to show in full.
 [peter@stdb01 ~]$ 
+```
 
+Confirm that the mariadb service is not installed
 
+```bash
 [peter@stdb01 ~]$ rpm -qa | grep mariadb
 [peter@stdb01 ~]$ 
+```
 
+Switch to root user and confirm mariadb service is not installed yet
 
-Check whether installation is working properly on the puppet slave
-
+```bash
 [peter@stdb01 ~]$ sudo su
 
 We trust you have received the usual lecture from the local System
@@ -130,7 +127,11 @@ Administrator. It usually boils down to these three things:
 
 [sudo] password for peter: 
 [root@stdb01 peter]#  rpm -qa | grep mariadb
+```
 
+Run agent test to deploy the mariabd package on the puppet agent node
+
+```bash
 [root@stdb01 peter]# puppet agent -tv
 Info: Using configured environment 'production'
 Info: Retrieving pluginfacts
@@ -147,18 +148,22 @@ Notice: /Stage[main]/Mysql_database/Mysql::Db[kodekloud_db4]/Mysql_user[kodeklou
 Notice: /Stage[main]/Mysql_database/Mysql::Db[kodekloud_db4]/Mysql_grant[kodekloud_pop@localhost/kodekloud_db4.*]/ensure: created
 Notice: Applied catalog in 33.02 seconds
 [root@stdb01 peter]# 
+```
 
+Confirm that the mariadb package is now present on the agent node
 
-
+```bash
 [root@stdb01 peter]#  rpm -qa | grep mariadb
 mariadb-server-5.5.68-1.el7.x86_64
 mariadb-libs-5.5.68-1.el7.x86_64
 mariadb-5.5.68-1.el7.x86_64
 [root@stdb01 peter]# 
+```
 
 
+Confirm the status of mariadb service, it is up and running
 
-
+```bash
 [root@stdb01 peter]# systemctl status mariadb
 ● mariadb.service - MariaDB database server
    Loaded: loaded (/usr/lib/systemd/system/mariadb.service; enabled; vendor preset: disabled)
@@ -180,9 +185,11 @@ Jan 07 12:35:07 stdb01.stratos.xfusioncorp.com systemd[1]: Job mariadb.service/s
 Jan 07 12:35:07 stdb01.stratos.xfusioncorp.com systemd[1]: Started MariaDB datab...
 Hint: Some lines were ellipsized, use -l to show in full.
 [root@stdb01 peter]# 
+```
 
+To ensure that the database was successfully created, connect to the database and list the databases present on the server
 
-
+```bash
 [root@stdb01 peter]# mysql -u kodekloud_pop -p kodekloud_db4 -h localhost
 Enter password: 
 Welcome to the MariaDB monitor.  Commands end with ; or \g.
@@ -204,5 +211,8 @@ MariaDB [kodekloud_db4]> show databases;
 3 rows in set (0.00 sec)
 
 MariaDB [kodekloud_db4]> 
+```
 
+
+### The End ###
 
