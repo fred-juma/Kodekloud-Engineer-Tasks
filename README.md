@@ -58,3 +58,5 @@
 22. [Deploy Jenkins on Kubernetes](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/09.%20Deploy%20Jenkins%20on%20Kubernetes)
 
 23. [Ansible Inventory Update](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/10.%20Ansible%20Inventory%20Update)
+
+24. [Puppet Setup Database](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/11.%20Puppet%20Setup%20Database)
