@@ -60,3 +60,5 @@
 23. [Ansible Inventory Update](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/10.%20Ansible%20Inventory%20Update)
 
 24. [Puppet Setup Database](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/11.%20Puppet%20Setup%20Database)
+
+25. [Replicaset in Kubernetes Cluster](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/12.%20Create%20Replicaset%20in%20Kubernetes%20Cluster)
