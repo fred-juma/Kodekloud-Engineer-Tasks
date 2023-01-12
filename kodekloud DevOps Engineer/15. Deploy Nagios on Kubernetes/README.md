@@ -25,7 +25,7 @@ thor@jump_host ~$ kubectl create deployment --image=jasonrivers/nagios nagios-de
 thor@jump_host ~$ 
 ```
 
-Inspect the [depolyment](nagios-deployment.yaml) definition and ensure it is correct
+Inspect the [depolyment definition file](nagios-deployment.yaml) definition and ensure it is correct
 
 Then apply the deployment definition to create the deployment resources
 
@@ -42,7 +42,7 @@ thor@jump_host ~$ kubectl expose deployment nagios-deployment --type=NodePort  -
 thor@jump_host ~$ 
 ```
 
-Inspect the [depolyment](nagios-service.yaml) definition and ensure it is correct
+Inspect the [service definition file](nagios-service.yaml) definition and ensure it is correct
 
 Then apply the service definition to create the service resource
 ```bash
