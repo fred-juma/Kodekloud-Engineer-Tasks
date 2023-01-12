@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: nagios-deployment
+  name: nagios-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nagios-deployment
+  template:
+    metadata:
+      labels:
+        app: nagios-deployment
+    spec:
+      containers:
+      - image: jasonrivers/nagios
+        name: nagios-container
