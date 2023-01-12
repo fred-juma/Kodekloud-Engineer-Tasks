@@ -66,3 +66,5 @@
 26. [Environment Variables in Kubernetes](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/13.%20Environment%20Variables%20in%20Kubernetes)
 
 27. [Kubernetes Resource Limits](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/14.%20Set%20Limits%20for%20Resources%20in%20Kubernetes)
+
+28. [Deploy Nagios on Kubernetes](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/15.%20Deploy%20Nagios%20on%20Kubernetes)
