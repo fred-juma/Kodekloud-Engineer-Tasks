@@ -70,3 +70,5 @@
 28. [Deploy Nagios on Kubernetes](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/15.%20Deploy%20Nagios%20on%20Kubernetes)
 
 29. [Countdown job creation in Kubernetes](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/16.%20Countdown%20job%20in%20Kubernetes)
+
+30. [Managing jinja2 templates using Ansible](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/17.%20Managing%20Jinja2%20Templates%20Using%20Ansible)
