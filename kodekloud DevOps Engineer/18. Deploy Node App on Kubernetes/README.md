@@ -106,6 +106,6 @@ Visit the resulting node app through the service port to see its contents
 
 Kubernetes Node Deployment              |  
 :-------------------------:|
-![Kubernetes Node Deployment](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/blob/main/images/node.JPG)
+![Kubernetes Node Deployment](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/blob/main/images/nodeapp.JPG)
 
 ***The End***
