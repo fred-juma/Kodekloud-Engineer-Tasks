@@ -74,3 +74,5 @@
 30. [Managing jinja2 templates using Ansible](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/17.%20Managing%20Jinja2%20Templates%20Using%20Ansible)
 
 31. [Node deployment in Kubernetes](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/18.%20Deploy%20Node%20App%20on%20Kubernetes)
+
+32. [Managing ACLs using Ansible](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/19.%20Managing%20ACLs%20using%20Ansible)
