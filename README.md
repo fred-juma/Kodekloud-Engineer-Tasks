@@ -78,3 +78,5 @@
 32. [Managing ACLs using Ansible](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/19.%20Managing%20ACLs%20using%20Ansible)
 
 33. [Kubernetes Redis Deployment](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/21.%20Kubernetes%20Redis%20Deployment)
+
+34. [Ansible Copy Module](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/23.%20Ansible%20Copy%20Module)
