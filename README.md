@@ -80,3 +80,5 @@
 33. [Kubernetes Redis Deployment](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/21.%20Kubernetes%20Redis%20Deployment)
 
 34. [Ansible Copy Module](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/23.%20Ansible%20Copy%20Module)
+
+35. [Docker Volume Mapping](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/24.%20Docker%20Volumes%20Mapping)
