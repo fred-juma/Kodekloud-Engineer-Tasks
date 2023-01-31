@@ -82,3 +82,5 @@
 34. [Ansible Copy Module](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/23.%20Ansible%20Copy%20Module)
 
 35. [Docker Volume Mapping](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/24.%20Docker%20Volumes%20Mapping)
+
+36. [Create Cronjobs in Kubernetes](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/25.%20Create%20Cronjobs%20in%20Kubernetes)
