@@ -84,3 +84,5 @@
 35. [Docker Volume Mapping](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/24.%20Docker%20Volumes%20Mapping)
 
 36. [Create Cronjobs in Kubernetes](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/25.%20Create%20Cronjobs%20in%20Kubernetes)
+
+37. [Fix issue with PhpFpm Application Deployed on Kubernetes](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/27.%20Fix%20issue%20with%20PhpFpm%20Application%20Deployed%20on%20Kubernetes)
