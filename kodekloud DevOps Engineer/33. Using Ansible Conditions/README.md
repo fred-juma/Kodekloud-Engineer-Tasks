@@ -21,6 +21,10 @@ Note: Validation will try to run the playbook using command ansible-playbook -i 
 
 #### Solution
 
+Create the playbook yaml file
+
+```bash
+
 thor@jump_host ~$ sudo vi playbook.yaml
 
 We trust you have received the usual lecture from the local System
@@ -29,7 +33,9 @@ Administrator. It usually boils down to these three things:
     #1) Respect the privacy of others.
     #2) Think before you type.
     #3) With great power comes great responsibility.
+```
 
+Enter the commands provided in the yaml file
 
 ```yaml
 ---
@@ -69,13 +75,20 @@ Administrator. It usually boils down to these three things:
     when: ansible_facts.hostname == "stapp03"
 ```
 
+View the inventory file contents
+
+```bash
 thor@jump_host ~$ cat ansible/inventory 
-stapp01 ansible_host=172.16.238.10 ansible_ssh_pass=Ir0nM@n ansible_user=tony
-stapp02 ansible_host=172.16.238.11 ansible_ssh_pass=Am3ric@ ansible_user=steve
-stapp03 ansible_host=172.16.238.12 ansible_ssh_pass=BigGr33n ansible_user=bannerthor@jump_host ~$ 
+stapp01 ansible_host=172.16.238.10 ansible_ssh_pass=***** ansible_user=tony
+stapp02 ansible_host=172.16.238.11 ansible_ssh_pass=***** ansible_user=steve
+stapp03 ansible_host=172.16.238.12 ansible_ssh_pass=***** ansible_user=bannerthor@jump_host ~$ 
+```
 
+For the configurations to be applied, we need to enble ssh passwordless authentication, for that execute the following steps
 
+Generate private-public key pair on the jump host
 
+```bash
 thor@jump_host ~$ ssh-keygen -t rsa
 Generating public/private rsa key pair.
 Enter file in which to save the key (/home/thor/.ssh/id_rsa): 
@@ -97,9 +110,11 @@ The key's randomart image is:
 |      .ooo...    |
 |       .+=+.     |
 +----[SHA256]-----+
+```
 
+Copy the public key from jump host to app server 1
 
-
+```bash
 thor@jump_host ~$ ssh-copy-id -i ~/.ssh/id_rsa.pub tony@stapp01
 /bin/ssh-copy-id: INFO: Source of key(s) to be installed: "/home/thor/.ssh/id_rsa.pub"
 The authenticity of host 'stapp01 (172.16.238.10)' can't be established.
@@ -114,9 +129,11 @@ Number of key(s) added: 1
 
 Now try logging into the machine, with:   "ssh 'tony@stapp01'"
 and check to make sure that only the key(s) you wanted were added.
+```
 
+Copy the public key from jump host to app server 2
 
-
+```bash
 thor@jump_host ~$ ssh-copy-id -i ~/.ssh/id_rsa.pub steve@stapp02
 /bin/ssh-copy-id: INFO: Source of key(s) to be installed: "/home/thor/.ssh/id_rsa.pub"
 The authenticity of host 'stapp02 (172.16.238.11)' can't be established.
@@ -131,7 +148,11 @@ Number of key(s) added: 1
 
 Now try logging into the machine, with:   "ssh 'steve@stapp02'"
 and check to make sure that only the key(s) you wanted were added.
+```
 
+Copy the public key from jump host to app server 3
+
+```bash
 
 thor@jump_host ~$ ssh-copy-id -i ~/.ssh/id_rsa.pub banner@stapp03
 /bin/ssh-copy-id: INFO: Source of key(s) to be installed: "/home/thor/.ssh/id_rsa.pub"
@@ -149,13 +170,18 @@ Now try logging into the machine, with:   "ssh 'banner@stapp03'"
 and check to make sure that only the key(s) you wanted were added.
 
 thor@jump_host ~$
+```
 
+Test to confirm that now you can ssh to app servers without password
 
+```bash
 thor@jump_host ~$ ssh tony@stapp01
 [tony@stapp01 ~]$ 
+```
 
+Apply the playbook to create the specified artifacts
 
-
+```bash
 thor@jump_host ~$ ansible-playbook -i /home/thor/ansible/inventory /home/thor/ansible/playbook.yml 
 
 PLAY [all] **********************************************************************************************************************************************
@@ -186,14 +212,16 @@ stapp02                    : ok=2    changed=1    unreachable=0    failed=0    s
 stapp03                    : ok=2    changed=1    unreachable=0    failed=0    skipped=2    rescued=0    ignored=0   
 
 thor@jump_host ~$ 
+```
 
 
+Confirm that the file was copied to app server 1
 
-
-
-
+```bash
 thor@jump_host ~$ ssh tony@stapp01 ls /opt/devops
 blog.txt
 thor@jump_host ~$ 
+```
 
+***End***
 
