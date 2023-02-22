@@ -90,3 +90,5 @@
 38. [Kubernetes Shared Volumes](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/28.%20Kubernetes%20Shared%20Volumes)
 
 39. [Persistent Volumes in Kubernetes](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/30.%20Persistent%20Volumes%20in%20Kubernetes)
+
+40. [Troubleshooting Deployment Issues in Kubernetes](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/34.%20Troubleshoot%20Deployment%20issues%20in%20Kubernetes)
