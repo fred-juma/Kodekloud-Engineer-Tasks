@@ -96,3 +96,5 @@
 41. [Git setup from scratch](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/35.%20Git%20Setup%20from%20Scratch)
 
 42. [Deploy Tomcat App on Kubernetes](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/36.%20Deploy%20Tomcat%20App%20on%20Kubernetes)
+
+43. [Kubernetes Sidecar Containers](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/37.%20Kubernetes%20Sidecar%20Containers)
