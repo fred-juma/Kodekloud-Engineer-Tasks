@@ -100,3 +100,5 @@
 43. [Kubernetes Sidecar Containers](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/37.%20Kubernetes%20Sidecar%20Containers)
 
 44. [Save Load and Transfer Docker Image](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/38.%20Save%20Load%20and%20Transfer%20Docker%20Image)
+
+45. [Kubernetes Print Environment Variables](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/40.%20Print%20Environment%20Variables)
