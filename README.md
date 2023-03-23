@@ -102,3 +102,5 @@
 44. [Save Load and Transfer Docker Image](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/38.%20Save%20Load%20and%20Transfer%20Docker%20Image)
 
 45. [Kubernetes Print Environment Variables](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/40.%20Print%20Environment%20Variables)
+
+46. [Puppet Manage Service - nginx](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/41.%20Puppet%20Manage%20Services)
