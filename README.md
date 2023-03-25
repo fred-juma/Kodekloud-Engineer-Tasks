@@ -104,3 +104,5 @@
 45. [Kubernetes Print Environment Variables](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/40.%20Print%20Environment%20Variables)
 
 46. [Puppet Manage Service - nginx](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/41.%20Puppet%20Manage%20Services)
+
+47. [Managing Secrets in Kubernets](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/42.%20Managing%20Secrets%20in%20Kubernetes)
