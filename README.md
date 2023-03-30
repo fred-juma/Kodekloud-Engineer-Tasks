@@ -108,3 +108,5 @@
 47. [Managing Secrets in Kubernets](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/42.%20Managing%20Secrets%20in%20Kubernetes)
 
 48. [Update Existing Kubernetes Deployment](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/43.%20Update%20Existing%20Kubernetes%20Deployment)
+
+49. [Kubernetes Deployment Rollback](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/44.%20Rollback%20Kubernetes%20Deployment)
