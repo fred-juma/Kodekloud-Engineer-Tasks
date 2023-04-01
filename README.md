@@ -110,3 +110,5 @@
 48. [Update Existing Kubernetes Deployment](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/43.%20Update%20Existing%20Kubernetes%20Deployment)
 
 49. [Kubernetes Deployment Rollback](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/44.%20Rollback%20Kubernetes%20Deployment)
+
+50. [Docker EXEC Operations](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/45.%20Docker%20EXEC%20Operations)
