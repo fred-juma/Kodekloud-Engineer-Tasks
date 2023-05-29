@@ -114,3 +114,11 @@
 50. [Docker EXEC Operations](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/45.%20Docker%20EXEC%20Operations)
 
 51. [Ansible Create Users and Groups](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/46.%20Ansible%20Create%20Users%20and%20Groups)
+
+52. [Create Namespaces in Kubernetes Cluster](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/47.%20Namespaces%20in%20Kubernetes%20Cluster)
+
+53. [Git Merge Branches](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/48.%20Git%20Merge%20Branches)
+
+54. [Create Pods in Kubernetes Cluster](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/49.%20Create%20Pods%20in%20Kubernetes%20Cluster)
+
+55. [Puppet Add Users](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/50.%20Puppet%20Add%20Users)
