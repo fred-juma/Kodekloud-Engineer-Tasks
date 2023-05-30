@@ -122,3 +122,5 @@
 54. [Create Pods in Kubernetes Cluster](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/49.%20Create%20Pods%20in%20Kubernetes%20Cluster)
 
 55. [Puppet Add Users](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/50.%20Puppet%20Add%20Users)
+
+56. [Ansible Blockinfile Module](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/KodeKloud%20Sr.%20DevOps%20Engineer/02.%20Ansible%20Blockinfile%20Module)
