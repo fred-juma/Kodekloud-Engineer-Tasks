@@ -123,4 +123,11 @@
 
 55. [Puppet Add Users](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/50.%20Puppet%20Add%20Users)
 
-56. [Ansible Blockinfile Module](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/KodeKloud%20Sr.%20DevOps%20Engineer/02.%20Ansible%20Blockinfile%20Module)
+
+### KodeKloud Senior Devops Engineer Tasks
+
+01. [Run a Docker Container](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/KodeKloud%20Sr.%20DevOps%20Engineer/01.%20Run%20a%20Docker%20Container)
+
+02. [Ansible Blockinfile Module](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/KodeKloud%20Sr.%20DevOps%20Engineer/02.%20Ansible%20Blockinfile%20Module)
+
+03. [Ansible Config File Update](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/KodeKloud%20Sr.%20DevOps%20Engineer/03.%20Ansible%20Config%20File%20Update)
