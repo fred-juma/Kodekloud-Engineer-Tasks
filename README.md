@@ -41,7 +41,7 @@
 
 13. [Linux Banner](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/KodeKloud%20System%20Administrator/13.%20Linux%20Banner)
 
-#### DevOps Engineer Tasks
+#### KodeKloud DevOps Engineer Tasks
 
 14. [Deployment in Kubernetes Cluster ](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/01.%20Create%20Deployments%20in%20Kubernetes%20Cluster)
 
