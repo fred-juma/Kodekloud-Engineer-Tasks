@@ -1,4 +1,4 @@
-## System Administration Tasks in KodeKloud Engineer Platform
+## Tasks in KodeKloud Engineer Platform
 
  [KodeKloud Engineer](https://www.kodekloud-engineer.com/) is a free platform designed to impact work experience for IT professionals.
 
@@ -10,7 +10,9 @@
 :-------------------------:|
 ![Nautilus Deployment Architecture](images/Nautilus_deployment_architecture.jpeg)
 
-### Sections
+## Sections
+
+#### KodeKloud System Administration Tasks
 
 1. [Linux Bash Scripts]( https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/KodeKloud%20System%20Administrator/01.%20Linux%20Bash%20Scripts)
 
@@ -38,6 +40,8 @@
 12. [Linux string substitution with sed](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/KodeKloud%20System%20Administrator/12.%20Linux%20string%20substitute%20sed)
 
 13. [Linux Banner](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/KodeKloud%20System%20Administrator/13.%20Linux%20Banner)
+
+#### DevOps Engineer Tasks
 
 14. [Deployment in Kubernetes Cluster ](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/kodekloud%20DevOps%20Engineer/01.%20Create%20Deployments%20in%20Kubernetes%20Cluster)
 
@@ -126,8 +130,8 @@
 
 ### KodeKloud Senior Devops Engineer Tasks
 
-01. [Run a Docker Container](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/KodeKloud%20Sr.%20DevOps%20Engineer/01.%20Run%20a%20Docker%20Container)
+56. [Run a Docker Container](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/KodeKloud%20Sr.%20DevOps%20Engineer/01.%20Run%20a%20Docker%20Container)
 
-02. [Ansible Blockinfile Module](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/KodeKloud%20Sr.%20DevOps%20Engineer/02.%20Ansible%20Blockinfile%20Module)
+57. [Ansible Blockinfile Module](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/KodeKloud%20Sr.%20DevOps%20Engineer/02.%20Ansible%20Blockinfile%20Module)
 
-03. [Ansible Config File Update](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/KodeKloud%20Sr.%20DevOps%20Engineer/03.%20Ansible%20Config%20File%20Update)
+58. [Ansible Config File Update](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/KodeKloud%20Sr.%20DevOps%20Engineer/03.%20Ansible%20Config%20File%20Update)
