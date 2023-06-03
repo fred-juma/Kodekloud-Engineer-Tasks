@@ -135,3 +135,5 @@
 57. [Ansible Blockinfile Module](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/KodeKloud%20Sr.%20DevOps%20Engineer/02.%20Ansible%20Blockinfile%20Module)
 
 58. [Ansible Config File Update](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/KodeKloud%20Sr.%20DevOps%20Engineer/03.%20Ansible%20Config%20File%20Update)
+
+59. [Create a Docker Image From Container](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/KodeKloud%20Sr.%20DevOps%20Engineer/04.%20Create%20a%20Docker%20Image%20From%20Container)
