@@ -139,3 +139,5 @@
 59. [Create a Docker Image From Container](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/KodeKloud%20Sr.%20DevOps%20Engineer/04.%20Create%20a%20Docker%20Image%20From%20Container)
 
 60. [Puppet String Manipulation](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/KodeKloud%20Sr.%20DevOps%20Engineer/05.%20Puppet%20String%20Manipulation)
+
+61. [Puppet String Manipulation](https://github.com/fred-juma/Kodekloud-Engineer-Tasks/tree/main/KodeKloud%20Sr.%20DevOps%20Engineer/05.%20Puppet%20String%20Manipulation)
